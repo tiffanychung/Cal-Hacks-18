@@ -15,6 +15,8 @@ class RootScreen: UIViewController {
     @IBOutlet weak var screenTitle: UILabel!
     @IBOutlet weak var screenSubtitle: UILabel!
     @IBOutlet weak var logInButton: UIButton!
+    @IBOutlet weak var starImage: UIImageView!
+    @IBOutlet weak var fbLogoImage: UIImageView!
     
     
     override func viewDidLoad() {
@@ -60,10 +62,12 @@ class RootScreen: UIViewController {
         logInRectView.layer.cornerRadius = 10
         self.view.addSubview(logInRectView)
         
-        //Move all the text front
+        //Move all the text and images to front
         self.view.bringSubviewToFront(screenTitle)
         self.view.bringSubviewToFront(screenSubtitle)
         self.view.bringSubviewToFront(logInButton)
+        self.view.bringSubviewToFront(starImage)
+        self.view.bringSubviewToFront(fbLogoImage)
         
         
     }

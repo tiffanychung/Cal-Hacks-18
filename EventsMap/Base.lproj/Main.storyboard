@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
         <array key="Roboto-Medium.ttf">
             <string>Roboto-Medium</string>
         </array>
@@ -51,52 +54,30 @@
                                 <color key="textColor" red="0.75294117650000003" green="0.61568627450000002" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebookLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="U60-h6-zAv">
+                                <rect key="frame" x="56" y="548" width="44" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="knz-Xc-Ed0">
+                                <rect key="frame" x="124" y="204" width="126" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.13333333333333333" green="0.49803921568627452" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="C6m-Hi-nbR"/>
                     </view>
                     <size key="freeformSize" width="375" height="812"/>
                     <connections>
+                        <outlet property="fbLogoImage" destination="U60-h6-zAv" id="0Dq-XD-e10"/>
                         <outlet property="logInButton" destination="8DJ-i7-emZ" id="wuV-FS-b4t"/>
                         <outlet property="screenSubtitle" destination="u6n-Ug-vUu" id="N3a-hJ-TGR"/>
                         <outlet property="screenTitle" destination="anl-8n-WfL" id="mdA-wu-aWx"/>
+                        <outlet property="starImage" destination="knz-Xc-Ed0" id="0ZA-n2-6yy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DpW-AP-WCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1033" y="-35"/>
-        </scene>
-        <!--Home Page-->
-        <scene sceneID="UOG-HJ-yvP">
-            <objects>
-                <viewController storyboardIdentifier="HomePage" id="F6S-pw-vN8" customClass="HomePage" customModule="EventsMap" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DAa-h7-sdw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNu-Hc-MXZ">
-                                <rect key="frame" x="166" y="255" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iah-eU-bfq">
-                                <rect key="frame" x="162" y="300" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Log Out"/>
-                                <connections>
-                                    <action selector="logOutButtonPressed:" destination="F6S-pw-vN8" eventType="touchUpInside" id="9ie-7k-SOA"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="X1m-oV-79r"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gMl-dy-q3j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1785" y="-34"/>
         </scene>
         <!--My View Controller-->
         <scene sceneID="d0G-Y5-pcY">
@@ -134,6 +115,17 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lO7-RZ-fVN">
                                 <rect key="frame" x="0.0" y="35" width="375" height="632"/>
                             </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CircleProfilePic.png" translatesAutoresizingMaskIntoConstraints="NO" id="jz9-Pv-UE7">
+                                <rect key="frame" x="15" y="34" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9L-03-5yA">
+                                <rect key="frame" x="159" y="28" width="56" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -159,7 +151,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HwZ-BU-gJC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1033" y="645"/>
+            <point key="canvasLocation" x="1032.8" y="644.52773613193403"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CircleProfilePic.png" width="654" height="654"/>
+        <image name="facebookLogo.png" width="2000" height="2000"/>
+        <image name="star.png" width="120" height="113"/>
+    </resources>
 </document>

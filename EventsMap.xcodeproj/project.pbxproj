@@ -11,6 +11,9 @@
 		C3180A79218D97E100384FFE /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180A78218D97E100384FFE /* HomePage.swift */; };
 		C3180D53218E06F800384FFE /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180D52218E06F800384FFE /* RootScreen.swift */; };
 		C3180D63218E866B00384FFE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180D62218E866B00384FFE /* MyViewController.swift */; };
+		C3180D65218F517600384FFE /* CircleProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = C3180D64218F517600384FFE /* CircleProfilePic.png */; };
+		C3180D67218F52B000384FFE /* facebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C3180D66218F52B000384FFE /* facebookLogo.png */; };
+		C3180D69218F531600384FFE /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = C3180D68218F531600384FFE /* star.png */; };
 		C321349D218D8451003844C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321349C218D8451003844C0 /* AppDelegate.swift */; };
 		C32134A2218D8451003844C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32134A0218D8451003844C0 /* Main.storyboard */; };
 		C32134A4218D8453003844C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32134A3218D8453003844C0 /* Assets.xcassets */; };
@@ -47,6 +50,9 @@
 		C3180D60218E863900384FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3180D61218E863900384FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3180D62218E866B00384FFE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		C3180D64218F517600384FFE /* CircleProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleProfilePic.png; sourceTree = "<group>"; };
+		C3180D66218F52B000384FFE /* facebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLogo.png; sourceTree = "<group>"; };
+		C3180D68218F531600384FFE /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		C3213499218D8451003844C0 /* EventsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C321349C218D8451003844C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32134A1218D8451003844C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +149,9 @@
 				C3180D62218E866B00384FFE /* MyViewController.swift */,
 				C3180D56218E863900384FFE /* map1 */,
 				C32134A3218D8453003844C0 /* Assets.xcassets */,
+				C3180D64218F517600384FFE /* CircleProfilePic.png */,
+				C3180D68218F531600384FFE /* star.png */,
+				C3180D66218F52B000384FFE /* facebookLogo.png */,
 				C32134A5218D8453003844C0 /* LaunchScreen.storyboard */,
 				C32134A8218D8453003844C0 /* Info.plist */,
 				C32134CB218D924C003844C0 /* GoogleService-Info.plist */,
@@ -244,10 +253,13 @@
 				C32134BA218D8623003844C0 /* Roboto-Thin.ttf in Resources */,
 				C32134BC218D8623003844C0 /* Roboto-Italic.ttf in Resources */,
 				C32134A7218D8453003844C0 /* LaunchScreen.storyboard in Resources */,
+				C3180D65218F517600384FFE /* CircleProfilePic.png in Resources */,
 				C32134BB218D8623003844C0 /* Roboto-BlackItalic.ttf in Resources */,
 				C32134C0218D8623003844C0 /* Roboto-MediumItalic.ttf in Resources */,
+				C3180D69218F531600384FFE /* star.png in Resources */,
 				C32134CC218D924C003844C0 /* GoogleService-Info.plist in Resources */,
 				C32134C3218D8623003844C0 /* Roboto-Black.ttf in Resources */,
+				C3180D67218F52B000384FFE /* facebookLogo.png in Resources */,
 				C32134BD218D8623003844C0 /* Roboto-Light.ttf in Resources */,
 				C32134A4218D8453003844C0 /* Assets.xcassets in Resources */,
 				C32134A2218D8451003844C0 /* Main.storyboard in Resources */,
