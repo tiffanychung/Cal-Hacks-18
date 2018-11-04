@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88D6095141A543C1F8AD5714 /* Pods_EventsMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6315EFEB8A885B6FD556AB10 /* Pods_EventsMap.framework */; };
+		C3180A79218D97E100384FFE /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180A78218D97E100384FFE /* HomePage.swift */; };
+		C3180D53218E06F800384FFE /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180D52218E06F800384FFE /* RootScreen.swift */; };
+		C3180D63218E866B00384FFE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3180D62218E866B00384FFE /* MyViewController.swift */; };
 		C321349D218D8451003844C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321349C218D8451003844C0 /* AppDelegate.swift */; };
-		C321349F218D8451003844C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321349E218D8451003844C0 /* ViewController.swift */; };
 		C32134A2218D8451003844C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32134A0218D8451003844C0 /* Main.storyboard */; };
 		C32134A4218D8453003844C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32134A3218D8453003844C0 /* Assets.xcassets */; };
 		C32134A7218D8453003844C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32134A5218D8453003844C0 /* LaunchScreen.storyboard */; };
+		C32134BA218D8623003844C0 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134AE218D8622003844C0 /* Roboto-Thin.ttf */; };
+		C32134BB218D8623003844C0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134AF218D8622003844C0 /* Roboto-BlackItalic.ttf */; };
+		C32134BC218D8623003844C0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B0218D8622003844C0 /* Roboto-Italic.ttf */; };
+		C32134BD218D8623003844C0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B1218D8622003844C0 /* Roboto-Light.ttf */; };
+		C32134BE218D8623003844C0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B2218D8623003844C0 /* Roboto-Medium.ttf */; };
+		C32134BF218D8623003844C0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B3218D8623003844C0 /* Roboto-BoldItalic.ttf */; };
+		C32134C0218D8623003844C0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B4218D8623003844C0 /* Roboto-MediumItalic.ttf */; };
+		C32134C1218D8623003844C0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B5218D8623003844C0 /* Roboto-Regular.ttf */; };
+		C32134C2218D8623003844C0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B6218D8623003844C0 /* Roboto-ThinItalic.ttf */; };
+		C32134C3218D8623003844C0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B7218D8623003844C0 /* Roboto-Black.ttf */; };
+		C32134C4218D8623003844C0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B8218D8623003844C0 /* Roboto-Bold.ttf */; };
+		C32134C5218D8623003844C0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32134B9218D8623003844C0 /* Roboto-LightItalic.ttf */; };
+		C32134CC218D924C003844C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C32134CB218D924C003844C0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3537A0C7DAD93C643DA23817 /* Pods-EventsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventsMap/Pods-EventsMap.release.xcconfig"; sourceTree = "<group>"; };
+		5A77B0B606F994418790EDC9 /* Pods-EventsMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventsMap/Pods-EventsMap.debug.xcconfig"; sourceTree = "<group>"; };
+		6315EFEB8A885B6FD556AB10 /* Pods_EventsMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventsMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3180A78218D97E100384FFE /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		C3180A7B218DA78900384FFE /* EventsMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EventsMap.entitlements; sourceTree = "<group>"; };
+		C3180D52218E06F800384FFE /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
+		C3180D57218E863900384FFE /* event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
+		C3180D58218E863900384FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3180D59218E863900384FFE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		C3180D5B218E863900384FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3180D5D218E863900384FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
+		C3180D5E218E863900384FFE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		C3180D5F218E863900384FFE /* PublicArt.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		C3180D60218E863900384FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3180D61218E863900384FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3180D62218E866B00384FFE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		C3213499218D8451003844C0 /* EventsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C321349C218D8451003844C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C321349E218D8451003844C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C32134A1218D8451003844C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32134A3218D8453003844C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32134A6218D8453003844C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32134A8218D8453003844C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32134AE218D8622003844C0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C32134AF218D8622003844C0 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C32134B0218D8622003844C0 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		C32134B1218D8622003844C0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		C32134B2218D8623003844C0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C32134B3218D8623003844C0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C32134B4218D8623003844C0 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C32134B5218D8623003844C0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C32134B6218D8623003844C0 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C32134B7218D8623003844C0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		C32134B8218D8623003844C0 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		C32134B9218D8623003844C0 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		C32134CB218D924C003844C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D6095141A543C1F8AD5714 /* Pods_EventsMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F6B14DDF506222AD09EBD37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A77B0B606F994418790EDC9 /* Pods-EventsMap.debug.xcconfig */,
+				3537A0C7DAD93C643DA23817 /* Pods-EventsMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D0B3AB8261EAD5E1A147197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6315EFEB8A885B6FD556AB10 /* Pods_EventsMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3180D56218E863900384FFE /* map1 */ = {
+			isa = PBXGroup;
+			children = (
+				C3180D57218E863900384FFE /* event.swift */,
+				C3180D58218E863900384FFE /* Assets.xcassets */,
+				C3180D59218E863900384FFE /* MyViewController.swift */,
+				C3180D5A218E863900384FFE /* LaunchScreen.storyboard */,
+				C3180D5C218E863900384FFE /* Main1.storyboard */,
+				C3180D5E218E863900384FFE /* Artwork.swift */,
+				C3180D5F218E863900384FFE /* PublicArt.json */,
+				C3180D60218E863900384FFE /* AppDelegate.swift */,
+				C3180D61218E863900384FFE /* Info.plist */,
+			);
+			name = map1;
+			path = "../../Cal-Hacks-18/map1/map1";
+			sourceTree = "<group>";
+		};
 		C3213490218D8451003844C0 = {
 			isa = PBXGroup;
 			children = (
 				C321349B218D8451003844C0 /* EventsMap */,
 				C321349A218D8451003844C0 /* Products */,
+				2F6B14DDF506222AD09EBD37 /* Pods */,
+				4D0B3AB8261EAD5E1A147197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,39 @@
 		C321349B218D8451003844C0 /* EventsMap */ = {
 			isa = PBXGroup;
 			children = (
+				C3180A7B218DA78900384FFE /* EventsMap.entitlements */,
 				C321349C218D8451003844C0 /* AppDelegate.swift */,
-				C321349E218D8451003844C0 /* ViewController.swift */,
+				C3180D52218E06F800384FFE /* RootScreen.swift */,
+				C3180A78218D97E100384FFE /* HomePage.swift */,
 				C32134A0218D8451003844C0 /* Main.storyboard */,
+				C3180D62218E866B00384FFE /* MyViewController.swift */,
+				C3180D56218E863900384FFE /* map1 */,
 				C32134A3218D8453003844C0 /* Assets.xcassets */,
 				C32134A5218D8453003844C0 /* LaunchScreen.storyboard */,
 				C32134A8218D8453003844C0 /* Info.plist */,
+				C32134CB218D924C003844C0 /* GoogleService-Info.plist */,
+				C32134C6218D879C003844C0 /* fonts */,
 			);
 			path = EventsMap;
+			sourceTree = "<group>";
+		};
+		C32134C6218D879C003844C0 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C32134B7218D8623003844C0 /* Roboto-Black.ttf */,
+				C32134AF218D8622003844C0 /* Roboto-BlackItalic.ttf */,
+				C32134B8218D8623003844C0 /* Roboto-Bold.ttf */,
+				C32134B3218D8623003844C0 /* Roboto-BoldItalic.ttf */,
+				C32134B0218D8622003844C0 /* Roboto-Italic.ttf */,
+				C32134B1218D8622003844C0 /* Roboto-Light.ttf */,
+				C32134B9218D8623003844C0 /* Roboto-LightItalic.ttf */,
+				C32134B2218D8623003844C0 /* Roboto-Medium.ttf */,
+				C32134B4218D8623003844C0 /* Roboto-MediumItalic.ttf */,
+				C32134B5218D8623003844C0 /* Roboto-Regular.ttf */,
+				C32134AE218D8622003844C0 /* Roboto-Thin.ttf */,
+				C32134B6218D8623003844C0 /* Roboto-ThinItalic.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32134AB218D8453003844C0 /* Build configuration list for PBXNativeTarget "EventsMap" */;
 			buildPhases = (
+				A0A7854FA5008C779677F971 /* [CP] Check Pods Manifest.lock */,
 				C3213495218D8451003844C0 /* Sources */,
 				C3213496218D8451003844C0 /* Frameworks */,
 				C3213497218D8451003844C0 /* Resources */,
+				F934FAE6774AD8282570A5A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +204,11 @@
 				TargetAttributes = {
 					C3213498218D8451003844C0 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,7 +235,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32134C4218D8623003844C0 /* Roboto-Bold.ttf in Resources */,
+				C32134C2218D8623003844C0 /* Roboto-ThinItalic.ttf in Resources */,
+				C32134C5218D8623003844C0 /* Roboto-LightItalic.ttf in Resources */,
+				C32134BF218D8623003844C0 /* Roboto-BoldItalic.ttf in Resources */,
+				C32134C1218D8623003844C0 /* Roboto-Regular.ttf in Resources */,
+				C32134BE218D8623003844C0 /* Roboto-Medium.ttf in Resources */,
+				C32134BA218D8623003844C0 /* Roboto-Thin.ttf in Resources */,
+				C32134BC218D8623003844C0 /* Roboto-Italic.ttf in Resources */,
 				C32134A7218D8453003844C0 /* LaunchScreen.storyboard in Resources */,
+				C32134BB218D8623003844C0 /* Roboto-BlackItalic.ttf in Resources */,
+				C32134C0218D8623003844C0 /* Roboto-MediumItalic.ttf in Resources */,
+				C32134CC218D924C003844C0 /* GoogleService-Info.plist in Resources */,
+				C32134C3218D8623003844C0 /* Roboto-Black.ttf in Resources */,
+				C32134BD218D8623003844C0 /* Roboto-Light.ttf in Resources */,
 				C32134A4218D8453003844C0 /* Assets.xcassets in Resources */,
 				C32134A2218D8451003844C0 /* Main.storyboard in Resources */,
 			);
@@ -130,19 +256,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0A7854FA5008C779677F971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EventsMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F934FAE6774AD8282570A5A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EventsMap/Pods-EventsMap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventsMap/Pods-EventsMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3213495218D8451003844C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C321349F218D8451003844C0 /* ViewController.swift in Sources */,
 				C321349D218D8451003844C0 /* AppDelegate.swift in Sources */,
+				C3180D53218E06F800384FFE /* RootScreen.swift in Sources */,
+				C3180D63218E866B00384FFE /* MyViewController.swift in Sources */,
+				C3180A79218D97E100384FFE /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C3180D5A218E863900384FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3180D5B218E863900384FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3180D5C218E863900384FFE /* Main1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3180D5D218E863900384FFE /* Base */,
+			);
+			name = Main1.storyboard;
+			sourceTree = "<group>";
+		};
 		C32134A0218D8451003844C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +481,16 @@
 		};
 		C32134AC218D8453003844C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A77B0B606F994418790EDC9 /* Pods-EventsMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EventsMap/EventsMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9LKL2N5H3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EventsMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +505,16 @@
 		};
 		C32134AD218D8453003844C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3537A0C7DAD93C643DA23817 /* Pods-EventsMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EventsMap/EventsMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9LKL2N5H3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EventsMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
