@@ -10,47 +10,55 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="map1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyViewController" customModule="map1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU8-Wb-C0V">
+                                <rect key="frame" x="145" y="627" width="85" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="This Week">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpr-KC-wS6">
+                                <rect key="frame" x="281" y="627" width="65" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="All Time">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGS-t0-dB8">
+                                <rect key="frame" x="32" y="630" width="49" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Today">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uFL-e7-Jgf">
                                 <rect key="frame" x="0.0" y="35" width="375" height="632"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU8-Wb-C0V">
-                                <rect key="frame" x="151" y="601" width="72" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="This Week"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpr-KC-wS6">
-                                <rect key="frame" x="286" y="601" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="All Time"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGS-t0-dB8">
-                                <rect key="frame" x="32" y="601" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Today"/>
-                                <connections>
-                                    <action selector="todaybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BTm-jC-xaz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXC-m1-reY">
-                                <rect key="frame" x="32" y="601" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Today"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dU8-Wb-C0V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="607" id="5Yl-Xd-Ftz"/>
+                            <constraint firstItem="dU8-Wb-C0V" firstAttribute="centerX" secondItem="uFL-e7-Jgf" secondAttribute="centerX" id="LFx-Ji-rZt"/>
+                            <constraint firstItem="dU8-Wb-C0V" firstAttribute="centerY" secondItem="DGS-t0-dB8" secondAttribute="centerY" id="TFV-zl-uG8"/>
+                            <constraint firstItem="Hpr-KC-wS6" firstAttribute="leading" secondItem="dU8-Wb-C0V" secondAttribute="trailing" constant="51" id="WZZ-ls-DsU"/>
                             <constraint firstItem="uFL-e7-Jgf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="WrF-lJ-fh1"/>
                             <constraint firstItem="uFL-e7-Jgf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="a6T-6d-hDe"/>
                             <constraint firstAttribute="trailing" secondItem="uFL-e7-Jgf" secondAttribute="trailing" id="aq9-h6-yvO"/>
                             <constraint firstItem="uFL-e7-Jgf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bEb-s6-j5m"/>
+                            <constraint firstItem="dU8-Wb-C0V" firstAttribute="baseline" secondItem="Hpr-KC-wS6" secondAttribute="baseline" id="k5x-cm-DLP"/>
+                            <constraint firstItem="dU8-Wb-C0V" firstAttribute="leading" secondItem="DGS-t0-dB8" secondAttribute="trailing" constant="64" id="obW-5X-wZO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -58,8 +66,7 @@
                         <outlet property="allTimeButton" destination="Hpr-KC-wS6" id="Enr-nF-6NS"/>
                         <outlet property="mapView" destination="uFL-e7-Jgf" id="bwh-P4-Wps"/>
                         <outlet property="thisWeekButton" destination="dU8-Wb-C0V" id="2zb-63-pte"/>
-                        <outlet property="todayButton" destination="DGS-t0-dB8" id="ee4-bE-1qs"/>
-                        <outlet property="todaybutton" destination="DGS-t0-dB8" id="h6j-te-MOi"/>
+                        <outlet property="todayButton" destination="DGS-t0-dB8" id="9XH-3f-4Da"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
