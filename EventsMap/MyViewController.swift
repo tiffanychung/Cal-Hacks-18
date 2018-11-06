@@ -20,8 +20,13 @@ struct Event {
 //    UIButton.contentEdgeInsets = UIEdgeInsets(top:15, left:20, bottom:10, right: 10)
 //}
 
+class MyPointAnnotation : MKPointAnnotation{
+    var pinTintColor: UIColor?
+}
+
 class MyViewController: UIViewController, MKMapViewDelegate
 {
+    var color = UIColor.green
     var inum = 0  // 0 = today, 1 = this week, 2 = all time
     var annotationIsVisible = false
    
@@ -48,19 +53,26 @@ class MyViewController: UIViewController, MKMapViewDelegate
         "Women in Tech: The Future of AI" : "https://www.facebook.com/events/243581662938922/"
         ]
     
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet var mapView: MKMapView!
     @IBOutlet weak var todayButton: UIButton!
     @IBOutlet weak var thisWeekButton: UIButton!
     @IBOutlet weak var allTimeButton: UIButton!
     func addpins(_ parameter: Array<Event>)
     {
         for Event in parameter {
-            let annotation = MKPointAnnotation()
+            let annotation = MyPointAnnotation()
             annotation.title = Event.title
             annotation.subtitle = Event.subtitle
             annotation.coordinate = CLLocationCoordinate2D(latitude: Event.latitude, longitude: Event.longitude)
+//            annotation.pinTintColor = UIColor.green
             mapView.addAnnotation(annotation)
         }
+    }
+    
+     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        let annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "pin")
+        annotationView.markerTintColor = self.color.copy() as? UIColor
+        return annotationView
     }
     
     @objc func didTapTodayButton(_ sender: Any)
@@ -132,20 +144,24 @@ class MyViewController: UIViewController, MKMapViewDelegate
         self.view.bringSubviewToFront(self.allTimeButton)
         self.allTimeButton.addTarget(self, action: #selector(self.didTapAllTimeButton(_:)), for: .touchUpInside)
         
-        addpins(todayevents)
+        self.inum = 0
+        updateMap()
 
     }
     func updateMap()
     {
         mapView.removeAnnotations(mapView.annotations)
+        self.color = UIColor.red
         addpins(todayevents)
         if self.inum > 0
         {
+            self.color = UIColor.blue
             addpins(weekevents)
         }
         
         if self.inum == 2
         {
+            self.color = UIColor.green
             addpins(alltimeevents)
         }
         
